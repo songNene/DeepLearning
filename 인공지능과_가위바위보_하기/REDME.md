@@ -1,4 +1,4 @@
-# 🧠 딥러닝 첫걸음 – MNIST 손글씨 분류 실습
+# 딥러닝 첫걸음 – MNIST 손글씨 분류 실습
 
 이 프로젝트는 모두의연구소에서 제공한 딥러닝 학습 노드를 따라 진행한 실습 내용입니다.  
 MNIST 손글씨 숫자 데이터를 활용해 CNN(합성곱 신경망) 기반 이미지 분류 모델을 구현하고,  
@@ -6,7 +6,7 @@ TensorFlow와 Keras의 Sequential API를 사용해 학습 및 평가를 수행�
 
 ---
 
-## 📌 프로젝트 개요
+## 프로젝트 개요
 
 - **목표**: 손글씨 숫자 이미지(0~9)를 분류하는 딥러닝 모델 학습
 - **데이터셋**: [MNIST](http://yann.lecun.com/exdb/mnist/) – 28x28 흑백 손글씨 이미지
@@ -16,7 +16,7 @@ TensorFlow와 Keras의 Sequential API를 사용해 학습 및 평가를 수행�
 
 ---
 
-## 🗂 데이터 정보
+## 데이터 정보
 
 - 총 70,000장 이미지 (28x28 픽셀, grayscale)
   - 학습용: 60,000장
@@ -25,7 +25,7 @@ TensorFlow와 Keras의 Sequential API를 사용해 학습 및 평가를 수행�
 
 ---
 
-## ⚙️ 모델 구조 (Sequential)
+## 모델 구조 (Sequential)
 
 ```python
 model = models.Sequential([
